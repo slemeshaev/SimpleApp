@@ -11,22 +11,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		66DE99C22CA9AF6800EFE0DC /* Exceptions for "SimpleApp" folder in "SimpleApp" target */ = {
+		66DE99C22CA9AF6800EFE0DC /* Exceptions for "app" folder in "SimpleApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				config/Info.plist,
 			);
 			target = 66DE99AF2CA9AF6700EFE0DC /* SimpleApp */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		66DE99B22CA9AF6700EFE0DC /* SimpleApp */ = {
+		66DE99B22CA9AF6700EFE0DC /* app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				66DE99C22CA9AF6800EFE0DC /* Exceptions for "SimpleApp" folder in "SimpleApp" target */,
+				66DE99C22CA9AF6800EFE0DC /* Exceptions for "app" folder in "SimpleApp" target */,
 			);
-			path = SimpleApp;
+			path = app;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		66DE99A72CA9AF6700EFE0DC = {
 			isa = PBXGroup;
 			children = (
-				66DE99B22CA9AF6700EFE0DC /* SimpleApp */,
+				66DE99B22CA9AF6700EFE0DC /* app */,
 				66DE99B12CA9AF6700EFE0DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				66DE99B22CA9AF6700EFE0DC /* SimpleApp */,
+				66DE99B22CA9AF6700EFE0DC /* app */,
 			);
 			name = SimpleApp;
 			packageProductDependencies = (
@@ -92,6 +92,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
+				ORGANIZATIONNAME = "iOS Diving";
 				TargetAttributes = {
 					66DE99AF2CA9AF6700EFE0DC = {
 						CreatedOnToolsVersion = 16.0;
@@ -142,15 +143,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5GWB2H668N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimpleApp/Info.plist;
+				INFOPLIST_FILE = app/config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -170,15 +169,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5GWB2H668N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimpleApp/Info.plist;
+				INFOPLIST_FILE = app/config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
