@@ -12,6 +12,23 @@ class MainViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = .white
+        
+        let customView = UIView()
+        
+        let viewWidth: CGFloat = 100
+        let viewHeight: CGFloat = 100
+        
+        customView.frame = CGRect(
+            x: (view.bounds.width - viewWidth) / 2,
+            y: (view.bounds.height - viewHeight) / 2,
+            width: viewWidth,
+            height: viewHeight
+        )
+        
+        view.addSubview(customView)
+        
+        customView.backgroundColor = .red
+        customView.layer.backgroundColor = UIColor.blue.cgColor
     }
 }
